@@ -1,0 +1,75 @@
+:root {
+  --background-color: hsl(212, 46%, 89%);
+  --sub-color: #777;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+}
+
+.header {
+  background-color: #fff;
+  width: 24rem;
+  border-radius: 1.4rem;
+  padding: 1.2rem;
+  box-shadow: 0.1rem 0.3rem 0.9rem #777;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.3 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero__img {
+  height: 24rem;
+  border-radius: 0.9rem;
+}
+
+.header__text-box {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  width: 20rem;
+  text-align: center;
+}
+
+.header__text-box--main {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+  width: 24rem;
+  line-height: 1.2;
+}
+
+.header__text-box--sub {
+  color: var(--sub-color);
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.12rem;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+}
