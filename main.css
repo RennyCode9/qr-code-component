@@ -19,7 +19,7 @@ body {
   font-family: sans-serif;
 }
 
-header {
+main {
   height: 100vh;
   display: flex;
   align-items: center;
